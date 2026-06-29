@@ -18,6 +18,11 @@ conda create -n mini-rag python=3.8
 conda activate mini-rag
 ```
 
+4. Optionally customize your shell prompt for readability (bash/zsh):
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
+```
+
 ## Dependencies
 
 - If the project includes a `requirements.txt`, install dependencies with:
